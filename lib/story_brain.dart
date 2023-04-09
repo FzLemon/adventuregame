@@ -87,6 +87,7 @@ class StoryBrain{
       } else if (_storyNumber == 5){
         restart();
       }
+
     }
     else if (choice == 2){
       if (_storyNumber == 0){

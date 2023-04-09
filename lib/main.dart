@@ -22,11 +22,14 @@ class AdventureGame extends StatelessWidget {
 StoryBrain storyBrain = StoryBrain();
 
 class StoryPage extends StatefulWidget {
+  const StoryPage({Key? key}) : super(key:key);
+
   @override
   State<StoryPage> createState() => _StoryPageState();
 }
 
 class _StoryPageState extends State<StoryPage> {
+  int storyNumber = 0;
   @override
   Widget build(BuildContext context) {
     return Scaffold(
